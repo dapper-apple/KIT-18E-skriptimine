@@ -9,3 +9,4 @@
 
 ## Lisamaterjalid
 - https://channel9.msdn.com/Series/DevOps-Fundamentals/Infrastructure-as-Code 
+- https://azuredevopslabs.com DevOps laborid Azure peal
