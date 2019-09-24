@@ -1,4 +1,4 @@
-# KIT-18E-skriptimine
+# KIT-18E skriptimisvahendid
 
 ## Kodus iseseisvalt läbivaatamiseks 
 - https://channel9.msdn.com/Series/GetStartedPowerShell3 
