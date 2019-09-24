@@ -8,7 +8,7 @@
 - Tutvu GitHubi kasutamisega: https://guides.github.com/activities/hello-world/
 
 ## Skriptide turvalisus
-- Skripti autentsuse tagamine (digitaalne allkirjastamine) https://devblogs.microsoft.com/scripting/hey-scripting-guy-how-can-i-sign-windows-powershell-scripts-with-an-enterprise-windows-pki-part-2-of-2/
+- Skripti autentsuse tagamine (digitaalne allkirjastamine) https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_signing
 ## Lisamaterjalid
 - https://channel9.msdn.com/Series/DevOps-Fundamentals/Infrastructure-as-Code 
 - https://azuredevopslabs.com DevOps laborid Azure peal
