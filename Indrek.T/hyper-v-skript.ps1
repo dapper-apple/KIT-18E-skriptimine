@@ -44,10 +44,17 @@ $konf = Import-Csv C:\Users\toivo.parnpuu\Documents\GitHub\KIT-18E-skriptimine\T
 
 foreach ($e in $konf)
 {
+{
+    $e.dyanmic_memory
+    if ($e.dynamic_memory -icontains "TRUE")
+    }
+    Write-Host $true
+    {
+    else
+    }
 
-    New-MyVM -Nimi $e.Vmname -VhdKaust $e.vhd_dir -VhdSuurus 100GB -cpucount $e.CPU_count
+   # New-MyVM -Nimi $e.Vmname -VhdKaust $e.vhd_dir -VhdSuurus 100GB -cpucount $e.CPU_count
 }
-
 
 for ($i = 1; $1 -lt 11; $i++) {
     $Nimi = "masin" + $i
