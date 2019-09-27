@@ -1,12 +1,12 @@
 ﻿Vmname,RAM[GB],CPU_count,dynamic_memory,switch_name,vlan_id,vhd_dir
 masin1,4,2,TRUE,sw1,100,c:\hyper-v\vhd1\
 masin2,6,3,FALSE,sw1,3,c:\hyper-v\vhd2\
-masin3,7,2,TRUE,sw1,44,c:\hyper-v\vhd1\
-masin4,8,5,FALSE,sw1,5,c:\hyper-v\vhd1\
-masin5,9,6,TRUE,sw1,100,c:\hyper-v\vhd1\
-masin6,4,7,TRUE,sw1,66,c:\hyper-v\vhd2\
+masin3,7,3,TRUE,sw1,44,c:\hyper-v\vhd1\
+masin4,8,2,FALSE,sw1,5,c:\hyper-v\vhd1\
+masin5,9,3,TRUE,sw1,100,c:\hyper-v\vhd1\
+masin6,4,2,TRUE,sw1,66,c:\hyper-v\vhd2\
 masin7,4,4,TRUE,sw1,77,c:\hyper-v\vhd1\
 masin8,3,3,FALSE,sw1,888,c:\hyper-v\vhd2\
 masin9,3,2,FALSE,sw1,44,c:\hyper-v\vhd1\
-masin10,4,34,TRUE,sw1,100,c:\hyper-v\vhd2\
+masin10,4,3,TRUE,sw1,100,c:\hyper-v\vhd2\
 masin11,6,5,FALSE,sw1,99,c:\hyper-v\vhd1\
