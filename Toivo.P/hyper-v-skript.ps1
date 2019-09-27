@@ -34,11 +34,20 @@ function New-MyVM ($Nimi, $VhdKaust, $VhdSuurus, $cpucount)
 }
 
 
-$konf = Import-Csv C:\Users\toivo.parnpuu\Documents\GitHub\KIT-18E-skriptimine\Toivo.P\vm-conf.csv -UseCulture
+$konf = Import-Csv C:\Users\toivo.parnpuu\Documents\GitHub\KIT-18E-skriptimine\Toivo.P\vm-conf.csv -Delimiter ";" -Encoding UTF8
 
 foreach ($e in $konf)
 {
 
-    New-MyVM -Nimi $e.Vmname -VhdKaust $e.vhd_dir -VhdSuurus 100GB -cpucount $e.CPU_count
+    if ($e.dynamic_memory -icontains "TRUE")
+    {
+        write-host $true
+    }
+    else
+    {
+        write-host $false
+    }
+
+    #New-MyVM -Nimi $e.Vmname -VhdKaust $e.vhd_dir -VhdSuurus 100GB -cpucount $e.CPU_count
 }
 
